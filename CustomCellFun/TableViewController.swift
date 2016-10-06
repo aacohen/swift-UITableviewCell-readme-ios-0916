@@ -19,6 +19,8 @@ class TableViewController: UITableViewController {
         createThrillerAlbum()
     }
     
+    
+    
     func createThrillerAlbum() {
         let firstTrack = Song(name: "Wanna Be Startin' Somethin", album: "Thriller", length: "6:03")
         let secondTrack = Song(name: "Baby Be Mine", album: "Thriller", length: "4:20")
